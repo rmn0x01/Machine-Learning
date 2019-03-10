@@ -95,7 +95,7 @@ training.append(pd.concat([validasi[0],validasi[1],validasi[2],validasi[3]]))
 #pemberian value awal
 bias = 0.5
 theta=[0.6,0.6,0.6,0.6]
-learning_rate=0.8 #dan 0.8, cukup edit di line ini untuk mengubah learning_rate
+learning_rate=0.1 #dan 0.8, cukup edit di line ini untuk mengubah learning_rate
 n_epoch=300 #jumlah epoch
 
 #List untuk menyimpan rata-rata error dan rata-rata akurasi dari training maupun validasi, per epoch per k-fold
