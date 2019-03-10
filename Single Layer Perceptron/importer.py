@@ -140,7 +140,7 @@ def cetak_grafik_loss_function(list_avg_avg_error,list_avg_avg_error_v):
 
 def cetak_grafik_accuracy(list_avg_accuracy,list_avg_accuracy_v):
     plt.plot(list_avg_accuracy,label='Training')
- #   plt.plot(list_avg_accuracy_v,label='Validation')
+    plt.plot(list_avg_accuracy_v,label='Validation')
     plt.ylabel('Accuracy')
     plt.legend()
     plt.show()
