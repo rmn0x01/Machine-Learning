@@ -1,3 +1,0 @@
-##Note
-
-Masih broken LUL
